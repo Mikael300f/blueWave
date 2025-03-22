@@ -1,0 +1,35 @@
+#card{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    margin-top: 4rem;
+    gap: 20px;
+}
+
+#card img{
+    height: 200px;
+}
+
+
+.cards {
+    height: 100%;
+    border: 1px solid #00A8FF;
+    padding: 1rem;
+    border-radius: 4px ;
+}
+
+.cards h3{
+    font-size: 1rem;
+    color: #00A8FF;
+    text-align: center;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-texto p{
+    margin-bottom: 0.75rem;
+}
+
+.card-localidade{
+    height: 0;
+}
+

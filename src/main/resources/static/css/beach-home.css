@@ -1,0 +1,32 @@
+#beach-home{
+    position: relative;
+}
+
+#beach-img-background img{ 
+    height: 350px;
+    width: 100%;
+}
+
+#beach-title{
+    position: absolute;
+    top: 50px;
+    left: auto;
+    height: 40vh;
+
+}
+
+#beach-title h1{
+
+    color: white;
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 3rem;
+    max-width: 20ch;
+
+}
+
+#beach-title h2{
+    margin-top: 2rem;
+    max-width: 55ch;
+    color: #545454;
+}

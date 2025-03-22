@@ -1,0 +1,63 @@
+#form-container{
+    margin: 0 auto;
+    display: flex;
+
+}
+#form-cadastro{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -20%);
+    background: white;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+#form-cadastro h1{
+    font-family: "Inter";
+    font-size: 1.75rem;
+    margin-bottom: 1.75rem;
+
+}
+
+#form-cadastro label{
+    display: block;
+    margin-top: 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+#form-cadastro input{
+    width: 350px;
+    padding: 0.75rem 1rem;
+    background: #ECECEC;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#genero select{
+    width: 350px;
+    padding: 0.75rem 1rem;
+    background: #ECECEC;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#btn-cadastro{
+    margin-top: 1.35rem;
+    width: 350px;
+    padding: 0.5rem;
+    font-family: "Roboto";
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #00A8FF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#btn-cadastro:hover{
+    background-color: #0398e2;
+
+}

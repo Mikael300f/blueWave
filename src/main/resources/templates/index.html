@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Wave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+<body>
+
+    <div id="header-bg">
+        <header id="header">
+          <a id="logo" href="/">BLUE WAVE</a>
+          <nav id="nav">
+            <button id="btn-mobile">
+              <span id="hambuger"></span>
+            </button>
+           
+            <ul id="menu">
+              <li><a href="">Quem Somos?</a></li>
+              <li><a href="">Sou um ONG</a></li>
+              <li><a href="/submitForm">Quero ser voluntário</a></li>
+              <li><a href="/login">Entrar</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+
+      <section class="" id="beach-home">
+
+        <div id="beach-img-background">
+          <img th:src="@{/css/images/praia1.jpeg}" alt="">
+        </div>
+      
+        <div class="container">
+
+
+        <div  id="beach-title">
+          <h1>Transforme vidas e 
+            seja parte da mudança!</h1>
+            <h2>Conectamos pessoas e ONGs em prol de um mundo melhor. 
+              Descubra projetos, envolva-se em causas inspiradoras e seja parte 
+              da mudança.</h2>
+
+        </div>
+      </div>
+      
+      </section>
+
+
+      <section class="container" id="cards-background" >
+        <div id="card">
+          <div class="cards">
+            <div class="card-img">
+                <img th:src="@{css/images/praiaCard1.jpeg}" alt="">
+            </div>
+
+            <div class="card-texto">
+              <h3>Preservação da Fauna Marinha</h3>
+              <p>Ajude no monitoramento e reabilitação de espécies marinhas ameaçadas, contribuindo para a preservação da biodiversidade dos oceanos.   Atividades:  Alimentação de animais resgat...</p>
+              
+                <span>São Paula, SP</span>
+            </div>         
+          </div>
+
+          <div class="cards">
+            <div class="card-img">
+                <img th:src="@{css/images/praiaCard2.jpeg}" alt="">
+            </div>
+
+            <div class="card-texto">
+              <h3>Preservação da Fauna Marinha</h3>
+              <p>Participe de ações de limpeza em praias e manguezais, ajudando a remover resíduos e conscientizar a comunidade sobre o impacto dos plásticos no ecossistema marinho.   Atividades: Coleta d..</p>
+             
+                <span>São Paula, SP</span>
+            </div>
+         
+         
+          </div>
+
+
+          <div class="cards">
+            <div class="card-img">
+                <img th:src="@{css/images/praiaCard3.jpeg}" alt="">
+            </div>
+
+            <div class="card-texto">
+              <h3>Preservação da Fauna Marinha</h3>
+              <p>Inspire crianças e adultos a cuidarem do meio ambiente, promovendo palestras e oficinas sobre preservação marinha e sustentabilidade.   Atividades: Organização de eventos educat...</p>
+             
+                <span>São Paula, SP</span>
+              
+            </div>
+         
+         
+          </div>
+
+
+          <div class="cards">
+            <div class="card-img">
+                <img th:src="@{css/images/praiaCard4.jpeg}" alt="">
+            </div>
+
+            <div class="card-texto">
+              <h3>Preservação da Fauna Marinha</h3>
+              <p>Apoie projetos de pesquisa e monitoramento das condições das praias e ecossistemas marinhos, contribuindo com dados que ajudam na preservação ambiental.   Atividades: Análise de qualidad...</p>
+             
+                <span>São Paula, SP</span>
+              
+            </div>
+         
+         
+          </div>
+        </div>
+
+      </section>
+    
+    
+</body>
+<script src="/js/main.js"></script>
+</html>
