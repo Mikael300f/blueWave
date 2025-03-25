@@ -20,7 +20,7 @@ public class DataConfiguration {
         driverManagerDataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         driverManagerDataSource.setUrl("jdbc:mysql://localhost:3306/bluewave");
         driverManagerDataSource.setUsername("root");
-        driverManagerDataSource.setPassword("root");
+        driverManagerDataSource.setPassword("3!z4@2F#9f8g");
         return driverManagerDataSource;
     }
 
